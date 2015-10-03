@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad() 
 
         let defaultBtn = PPButton(frame: CGRectMake(115, 140, 150, 36), ppButtonType: .PPBDefault)
         defaultBtn.setTitle("Default", forState: .Normal)
